@@ -7,6 +7,17 @@ html {
     background-color: black;
 }
 
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+p {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
 .centered {
     display: block; /* Add width to the element as well if you want this to work. */
     margin: auto;
@@ -42,12 +53,11 @@ html {
 }
 
 #screen {
-    
+    height: 400px;
+    width: 800px;
+    border: 10px solid #303F42;
 }
 
 #gamecanvas {
-    width: 800px;
-    height: 400px;
-    background-color: white;
-    border: 10px solid #303F42;
+    background-color: rgb(255,255,255);
 }
