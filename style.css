@@ -1,7 +1,53 @@
-#screen {
-
+html {
+    font-family: Impact, fantasy;
+    color: white;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    background-color: black;
 }
 
-#canvas {
+.centered {
+    display: block; /* Add width to the element as well if you want this to work. */
+    margin: auto;
+}
+
+.players {
+    display: block;
+    width: 800px;
+}
+
+#heading1 {
+    padding: 0;
+    font-weight: 500;
+    color: #EEC015;
+    width: 205px;
+    font-size: 50px;
+}
+
+#player1, #player2 {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-size: 32px;
+    width: 398px;
+}
+
+#player1 {
+    text-align: left;
+}
+
+#player2 {
+    text-align: right;
+}
+
+#screen {
     
+}
+
+#gamecanvas {
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    border: 10px solid #303F42;
 }

@@ -2,10 +2,23 @@
 <html>
 <head>
 <title>EasyPong</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Player versus player pong game created with HTML, CSS and JavaScript">
+<link rel="stylesheet"  href="style.css">
 </head>
 <body>
+    <h1 class="centered" id="heading1">EASYPONG</h1>
+    <div class="centered players">
+        <div id="player1">
+            <p>PLAYER 1:</p> <p id="player1score"></p>
+        </div>
+        <div id="player2">
+            <p>PLAYER 2:</p> <p id="player2score"></p>
+        </div>
+    </div>
     <div id="screen">
-        <canvas id="mycanvas" height="800" width="900">
+        <canvas id="gamecanvas" class="centered">
         </canvas>
     </div>
 
