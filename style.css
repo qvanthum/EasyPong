@@ -29,18 +29,27 @@ p {
 }
 
 #heading1 {
-    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
     font-weight: 500;
-    color: #EEC015;
+    color: white;
     width: 205px;
     font-size: 50px;
+    background-color: #EEC015;
+    box-shadow: 2px 2px white;
 }
 
 #rules {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
     width: 800px;
     text-align: center;
     font-size: 28px;
-    text-shadow: 2px 2px #EEC015;
+    background-color: #EEC015;
+    box-shadow: 2px 2px white;
+    width: 500px;
 }
 
 #player1, #player2 {
