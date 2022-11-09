@@ -36,6 +36,13 @@ p {
     font-size: 50px;
 }
 
+#rules {
+    width: 800px;
+    text-align: center;
+    font-size: 28px;
+    text-shadow: 2px 2px #EEC015;
+}
+
 #player1, #player2 {
     display: inline-block;
     padding: 0;
@@ -53,9 +60,10 @@ p {
 }
 
 #screen {
-    height: 400px;
-    width: 800px;
-    border: 10px solid #303F42;
+    height: 401px;
+    width: 799px;
+    border: 10px solid#303F42;
+    background-color: #303F42;
 }
 
 #gamecanvas {
