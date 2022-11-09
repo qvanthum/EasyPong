@@ -1,2 +1,2 @@
-# 2PlayerEasyPong
-2 player game EasyPong
+# EasyPong
+Player versus player Pong game made with HTML, CSS and JavaScript
