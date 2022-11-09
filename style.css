@@ -37,7 +37,7 @@ p {
     width: 205px;
     font-size: 50px;
     background-color: #EEC015;
-    box-shadow: 2px 2px white;
+    box-shadow: 4px 4px white;
 }
 
 #rules {
@@ -48,7 +48,7 @@ p {
     text-align: center;
     font-size: 28px;
     background-color: #EEC015;
-    box-shadow: 2px 2px white;
+    box-shadow: 4px 4px white;
     width: 500px;
 }
 
