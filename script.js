@@ -95,9 +95,10 @@ var ball = {
         this.positionY = y/2;
     },
     move: function move() {
-        
+        checkScore(player1.score, player2.score);
         if(this.hasStarted === true) {
             ctx.clearRect(0, 0, x, y);
+            
             dashedLines();
             this.positionX += sign * this.speed;
             this.positionY += sign2 * this.angle;
@@ -178,6 +179,19 @@ function dashedLines() {
     ctx.moveTo(x/2, 0);
     ctx.lineTo(x/2, y);
     ctx.stroke();
+}
+
+function checkScore(p1s, p2s) {
+    if(p1s === 10 || p2s === 10){
+        ball.hasStarted = false;
+        ctx.clearRect(0, 0, x, y);
+        if(p1s === 10) {
+            ctx.fillText("PLAYER 1 WINS!", x/2, y/2);
+        }
+        if(p2s === 10) {
+            ctx.fillText("PLAYER 2 WINS!", x/2, y/2);
+        }
+    }
 }
 
 let keysPressed = {};
