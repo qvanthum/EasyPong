@@ -28,7 +28,15 @@ p {
     width: 800px;
 }
 
+.instructions {
+    display: block;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 #heading1 {
+    text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 5px;
