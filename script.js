@@ -286,7 +286,7 @@ var ball = {
                         }    
                     }
                 } else {
-                    if(this.positionX - this.radius <= player1.positionX){
+                    if(this.positionX - this.radius <= player1.positionX - 2 * paddleWidth){ // -2 * paddleWidth
                         player2.score += 1;
                         this.restart();
                     }
@@ -442,7 +442,7 @@ var ball = {
                         }    
                     }
                 } else {
-                    if(this.positionX + this.radius >= player2.positionX + paddleWidth){
+                    if(this.positionX + this.radius >= player2.positionX + 3 * paddleWidth){ // + 3 * paddleWidth
                         player1.score += 1;
                         this.restart();
                     }
